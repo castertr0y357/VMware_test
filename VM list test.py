@@ -55,9 +55,9 @@ def main():
     # args = cli.get_args()
 
     try:
-        service_instance = connect.SmartConnectNoSSL(host='ppscvcenter01',
-                                                user='aligntech\jfort-admin',
-                                                pwd='Castertr0y356!',
+        service_instance = connect.SmartConnectNoSSL(host='',
+                                                user='',
+                                                pwd='',
                                                 port=443)
 
         atexit.register(connect.Disconnect, service_instance)
